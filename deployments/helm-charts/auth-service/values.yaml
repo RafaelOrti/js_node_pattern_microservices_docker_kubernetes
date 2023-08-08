@@ -1,0 +1,18 @@
+
+# values.yaml para auth-service
+image:
+  repository: auth-service
+  tag: latest
+
+service:
+  name: auth-service
+  port: 80
+
+env:
+  NODE_ENV: production
+  DB_HOST: mongodb
+  DB_PORT: 27017
+  DB_NAME: authdb
+  DB_USERNAME: admin
+  DB_PASSWORD: adminpassword
+  JWT_SECRET: mysecretkey

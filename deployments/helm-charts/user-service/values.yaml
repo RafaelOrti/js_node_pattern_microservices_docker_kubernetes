@@ -1,0 +1,14 @@
+
+# values.yaml para user-service
+image:
+  repository: user-service
+  tag: latest
+
+service:
+  name: user-service
+  port: 80
+
+env:
+  NODE_ENV: production
+  DB_HOST: mongodb
+  # Agregar más variables de entorno según sea necesario
