@@ -71,7 +71,7 @@ This project supports deployment to Kubernetes using Helm charts. Refer to the `
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or pull requests for bug fixes, improvements, or new features. Please follow the [Contributing Guidelines](CONTRIBUTING.md).
+Contributions are welcome! Feel free to open issues or pull requests for bug fixes, improvements, or new features. Please follow the [Contributing Guidelines](CONTRIBUTING.md). (work in progress)
 
 ## License
 
