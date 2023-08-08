@@ -1,0 +1,16 @@
+{
+  "service_name": "auth-service",
+  "database": {
+    "host": "prod-db-host",
+    "port": 27017,
+    "name": "production_auth_db",
+    "username": "prod_auth_user",
+    "password": "prod_auth_password"
+  },
+  "api": {
+    "baseURL": "https://api.example.com"
+  },
+  "logging": {
+    "level": "info"
+  }
+}

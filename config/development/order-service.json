@@ -1,0 +1,16 @@
+{
+  "service_name": "order-service",
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "development_order_db",
+    "username": "dev_order_user",
+    "password": "dev_order_password"
+  },
+  "api": {
+    "baseURL": "http://localhost:3002"
+  },
+  "logging": {
+    "level": "debug"
+  }
+}

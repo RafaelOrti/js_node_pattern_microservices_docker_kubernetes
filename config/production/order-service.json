@@ -1,0 +1,16 @@
+{
+  "service_name": "order-service",
+  "database": {
+    "host": "prod-db-host",
+    "port": 27017,
+    "name": "production_order_db",
+    "username": "prod_order_user",
+    "password": "prod_order_password"
+  },
+  "api": {
+    "baseURL": "https://api.example.com"
+  },
+  "logging": {
+    "level": "info"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "service_name": "auth-service",
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "development_auth_db",
+    "username": "dev_auth_user",
+    "password": "dev_auth_password"
+  },
+  "api": {
+    "baseURL": "http://localhost:3000"
+  },
+  "logging": {
+    "level": "debug"
+  }
+}

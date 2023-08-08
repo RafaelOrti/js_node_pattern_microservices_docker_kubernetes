@@ -1,0 +1,16 @@
+{
+  "service_name": "user-service",
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "development_user_db",
+    "username": "dev_user_user",
+    "password": "dev_user_password"
+  },
+  "api": {
+    "baseURL": "http://localhost:3001"
+  },
+  "logging": {
+    "level": "debug"
+  }
+}
