@@ -1,0 +1,23 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Authentication microservice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["microservice", "authentication"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}
